@@ -18,7 +18,7 @@ app.listen(app.get('port'), function() {
 });
 
 app.get('/getpost', function(request, response) {
-  response.render('pages/getmath');
+  response.render('pages/postalpage1');
 });
 
 app.get('/postrates', function(request, response) {
@@ -94,5 +94,5 @@ app.get('/postrates', function(request, response) {
 
     console.log(message);
 
-  response.render('pages/mathresult', {"answer":message});
+  response.render('pages/results', {"costs":message});
 });
