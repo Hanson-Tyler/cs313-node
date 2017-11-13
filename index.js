@@ -32,7 +32,7 @@ app.get('/postrates', function(request, response) {
     	else if (weight > 0 && weight <= 3){
     		message = ((Math.ceil(weight) * .21) + .28);
     	}
-    	else if (weight > 3 && <= 3.5){
+    	else if (weight > 3 && weight <= 3.5){
     		message = 1.12;
     	}
     	else{
@@ -48,7 +48,7 @@ app.get('/postrates', function(request, response) {
     	else if (weight > 0 && weight <= 3){
     		message = ((Math.ceil(weight) * .21) + .25);
     	}
-    	else if (weight > 3 && <= 3.5){
+    	else if (weight > 3 && weight <= 3.5){
     		message = 1.09;
     	}
     	else{
@@ -78,13 +78,13 @@ app.get('/postrates', function(request, response) {
     	else if (weight > 4 && weight <= 10){
     		message = ((Math.ceil(weight) * .16) + 2.36);
     	}
-    	else if (weight > 10 && <= 11){
+    	else if (weight > 10 && weight <= 11){
     		message = 4.19;
     	}
-    	else if (weight > 11 && <= 12){
+    	else if (weight > 11 && weight <= 12){
     		message = 4.36;
     	}
-    	else if (weight > 12 && <= 13){
+    	else if (weight > 12 && weight <= 13){
     		message = 4.53;
     	}
     	else{
