@@ -21,7 +21,7 @@ app.get('/getpost', function(request, response) {
   response.render('pages/postalpage1');
 });
 
-app.get('/postrates', function(request, response) {
+app.get('/postal', function(request, response) {
     var weight = Number(request.query.input1);
     var operation = request.query.optradio;
     var message = undefined;
