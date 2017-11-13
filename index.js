@@ -95,5 +95,4 @@ app.get('/postrates', function(request, response) {
     console.log(message);
 
   response.render('pages/mathresult', {"answer":message});
-    	}
 });
