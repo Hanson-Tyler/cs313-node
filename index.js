@@ -22,7 +22,7 @@ app.get('/getpost', function(request, response) {
 });
 
 app.get('/postal', function(request, response) {
-    var weight = Number(request.query.input1);
+    var weight = Number(request.query.weight);
     var operation = request.query.optradio;
     var message = undefined;
     if(operation == "stamp"){
